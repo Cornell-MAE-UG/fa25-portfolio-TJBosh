@@ -180,7 +180,7 @@ $$
 
 That is, the work produced by a cycle of work divided by the heat added during this cycle.
 
-To calculate the amount of heat inputted, we analyze the fuel used for the engine and its lower heating value (LHV). For unleaded gasoline, the typical LHV is 12.2 kWh/kg or 43.92 MJ/kg. Baja SAE rules state all competition vehicles must use Pyrotect Part Number SFC100 as a fuel tank. The dimensions of the fuel tank are shown in the drawing (8.00 in ⌀ x 7.94 in). When full, the volume of fuel inside the tank is given by
+To calculate the amount of heat inputted, we analyze the fuel used for the engine and its lower heating value (LHV). For unleaded gasoline, the typical LHV is 12.2 kWh/kg or 43.92 MJ/kg. Baja SAE rules state all competition vehicles must use Pyrotect Part Number SFC100 as a fuel tank. The dimensions of the fuel tank are shown in the drawing (8.00 in ⌀ x 7.94 in). When full, the volume of fuel inside the tank is given by:
 
 {% raw %}
 $$
@@ -193,7 +193,7 @@ $$
   <img src="{{ '/assets/images/baja-fuel-tank-drawing.jpg' | relative_url }}" alt="Second Image" style="width:48%;">
 </div>
 
-The typical density for unleaded gasoline is about 0.71 to 0.77 g/mL or 710 to 770 kg/m^3. To be conservative in our calculation of efficiency, we choose the highest density (i.e., a less efficient engine will need more gas to produce the same amount of work). Thus we find that the mass of gas when the gas tank is full is
+The typical density for unleaded gasoline is about 0.71 to 0.77 g/mL or 710 to 770 kg/m^3. To be conservative in our calculation of efficiency, we choose the highest density (i.e., a less efficient engine will need more gas to produce the same amount of work). Thus we find that the mass of gas when the gas tank is full is:
 
 {% raw %}
 $$
@@ -201,7 +201,7 @@ m = \rho V = (770)(0.00654) = 5.0358 \, \text{kg}.
 $$
 {% endraw %}
 
-To calculate the total heat energy that can be obtained from this amount of fuel, we use the previously mentioned LHV value to calculate
+To calculate the total heat energy that can be obtained from this amount of fuel, we use the previously mentioned LHV value to calculate:
 
 {% raw %}
 $$
