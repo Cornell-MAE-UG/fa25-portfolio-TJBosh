@@ -26,7 +26,7 @@ The analysis will consist of three main parts:
 
 **2. Calculating differences in work and heat of the stock 14HP engine and the limitted 10HP configuration, and calculating how the limiting is done.**
 
-**3. Compare both of these ideal efficiencies to the efficiency of the engine in real operating conditions**
+**3. Comparing the ideal efficiency to the efficiency of the engine in real operating conditions**
 
 ## Ideal Air Standard Otto Cycle
 
@@ -229,7 +229,7 @@ W = F \, l
 $$
 {% endraw %}
 
-To find the length traveled during the consumption of one full fuel tank, we look at the fact that during the most recent endurance race, Cornell’s vehicle stopped to refuel after about 2.25 hours of the endurance race. Looking at the competition’s lap logs, at this time, Cornell had completed 41 laps of the track. Given that one lap of the track at this competition measured about 1.2 miles, we find that the approximate distance traveled by the car on one fuel tank was about 49.275 miles or 79,300.4256 meters.
+To find the length traveled during the consumption of one full fuel tank, we look at the fact that during the most recent endurance race, Cornell’s vehicle stopped to refuel after about 2.25 hours of the endurance race. Looking at the competition’s lap logs, at this time, Cornell had completed 41 laps of the track. Given that one lap of the track at this competition measured about 1.2 miles, we find that the approximate distance traveled by the car on one fuel tank was about 49.275 miles or 79,300.43 meters.
 
 To find the average force exerted on the car to move it forward, we perform a static calculation. Taking the coefficient of friction between the wheel and a dirt track to be approximately
 
@@ -252,7 +252,7 @@ Going back to the work calculation, we find that the work produced by the engine
 
 {% raw %}
 $$
-W = (889.952)(79,300.4256) = 70.57 \, \text{MJ}.
+W = (889.952)(79,300.43) = 70.57 \text{MJ}
 $$
 {% endraw %}
 
@@ -260,7 +260,7 @@ We can finally return to the efficiency calculation to find that the real-life e
 
 {% raw %}
 $$
-\eta_\text{real} = \frac{70.57}{221.17} = 0.319 = 31.9\%.
+\eta_\text{real} = \frac{70.57}{221.17} = 0.319 = 31.9\%
 $$
 {% endraw %}
 
