@@ -86,7 +86,7 @@ Now, to calculate the work, we use the fact that the work of a cycle is power pe
 
 {% raw%}
 $$
-W_\text{cyc} = \frac{P}{\text{cycles/sec}} = \frac{\tau \frac{2 \pi \cdot RPM}{\text{60 sec}}}{\frac{RPM}{\text{2 cycles \cdot 60sec}}} = 4 \pi \tau = 4 \pi \cdot \text{30.78 Nm} = \text{386.79 J}
+W_\text{cyc} = \frac{P}{\text{cycles/sec}} = \frac{\tau \frac{2 \pi \cdot RPM}{\text{60 sec}}}{\frac{RPM}{\text{2 cycles \cdot 60 sec}}} = 4 \pi \tau = 4 \pi \cdot \text{30.78 Nm} = \text{386.79 J}
 $$
 {% endraw %}
 
