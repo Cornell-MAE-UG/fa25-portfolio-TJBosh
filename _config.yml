@@ -8,12 +8,12 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : Your Name
+title                    : Trevor Boshnack - Portfolio
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : Your Name
-description              : Your Name - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+name                     : Trevor Boshnack
+description              : Trevor Boshnack - Projects and CV
+baseurl                  : "/fa25-portfolio-TJBosh" # Set this to your repo name
 
 # Theme and Style
 theme: jekyll-theme-minimal
@@ -36,10 +36,10 @@ collections:
 markdown: kramdown
 kramdown:
   input: GFM
+  math_engine: mathjax
 
 # Plugins (previously gems:)
 plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-seo-tag
-
