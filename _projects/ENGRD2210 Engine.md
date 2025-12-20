@@ -170,7 +170,7 @@ We can conclude that the intake should be limited such that only 79.3% of origin
 
 Having analyzed the theoretical efficiency of the CH440 engine modified for use in Baja SAE, we now ask: how does it compare to its real performance in competition?
 
-Thermal efficiency of a power cycle in general is expressed as
+Thermal efficiency of a power cycle in general is expressed as:
 
 {% raw %}
 $$
@@ -178,7 +178,7 @@ $$
 $$
 {% endraw %}
 
-that is, the work produced by a cycle of work divided by the heat added during this cycle.
+That is, the work produced by a cycle of work divided by the heat added during this cycle.
 
 To calculate the amount of heat inputted, we analyze the fuel used for the engine and its lower heating value (LHV). For unleaded gasoline, the typical LHV is 12.2 kWh/kg or 43.92 MJ/kg. Baja SAE rules state all competition vehicles must use Pyrotect Part Number SFC100 as a fuel tank. The dimensions of the fuel tank are shown in the drawing (8.00 in ⌀ x 7.94 in). When full, the volume of fuel inside the tank is given by
 
@@ -213,7 +213,7 @@ Now the trickier part: figuring out how much work we get out of one full tank.
 
 To do this, we will analyze Cornell's vehicle’s motion and fuel consumption during the 4-hour Baja SAE Endurance race. Looking at lap times, track length, and fuel consumption during the last Endurance Race, we find that the vehicle started the race with a full fuel tank and stopped to refuel after.
 
-To find work, we calculate it as
+To find work, we calculate it as:
 
 {% raw %}
 $$
@@ -221,7 +221,7 @@ W = F \, dl
 $$
 {% endraw %}
 
-and assuming that all force is used to propel the vehicle forward, it can be reduced to
+Assuming that all force is used to propel the vehicle forward, it can be reduced to:
 
 {% raw %}
 $$
@@ -231,7 +231,7 @@ $$
 
 To find the length traveled during the consumption of one full fuel tank, we look at the fact that during the most recent endurance race, Cornell’s vehicle stopped to refuel after about 2.25 hours of the endurance race. Looking at the competition’s lap logs, at this time, Cornell had completed 41 laps of the track. Given that one lap of the track at this competition measured about 1.2 miles, we find that the approximate distance traveled by the car on one fuel tank was about 49.275 miles or 79,300.43 meters.
 
-To find the average force exerted on the car to move it forward, we perform a static calculation. Taking the coefficient of friction between the wheel and a dirt track to be approximately
+To find the average force exerted on the car to move it forward, we perform a static calculation. Taking the coefficient of friction between the wheel and a dirt track to be approximately:
 
 {% raw %}
 $$
@@ -239,7 +239,7 @@ $$
 $$
 {% endraw %}
 
-the free body diagram for one of the wheels looks as below:
+The free body diagram for one of the wheels looks as below.
 
 <div style="text-align: center;">
   <img src="{{ '/assets/images/fbd-baja-wheel.png' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
@@ -248,7 +248,7 @@ the free body diagram for one of the wheels looks as below:
 
 Multiplying the result of the friction force by four wheels, we find that the total forward force necessary to move the car forward is 889.952 N.
 
-Going back to the work calculation, we find that the work produced by the engine using up one fuel tank is approximately
+Going back to the work calculation, we find that the work produced by the engine using up one fuel tank is approximately:
 
 {% raw %}
 $$
@@ -256,7 +256,7 @@ W = (889.952)(79,300.43) = 70.57 \text{MJ}
 $$
 {% endraw %}
 
-We can finally return to the efficiency calculation to find that the real-life efficiency of the engine is approximately
+We can finally return to the efficiency calculation to find that the real-life efficiency of the engine is approximately:
 
 {% raw %}
 $$
