@@ -11,6 +11,7 @@ image: /assets/images/SLFontree.jpg
     src="{{ '/assets/O3_Batties.pdf' | relative_url }}" 
     width="100%" 
     height="100%" 
-    style="border:none;">
+    style="border: none;"
+  >
   </iframe>
 </div>
